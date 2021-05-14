@@ -1,13 +1,15 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyA9F6zriCDRHGeu-LwJ83CplHUKkQVCr0M",
-    authDomain: "corona-9e261.firebaseapp.com",
-    databaseURL: "https://corona-9e261.firebaseio.com",
-    projectId: "corona-9e261",
-    storageBucket: "corona-9e261.appspot.com",
-    messagingSenderId: "694830677499",
-    appId: "1:694830677499:web:b9382e363351f4b3701f5e"
-  };
-  firebase.initializeApp(firebaseConfig);
+  apiKey: "AIzaSyBkhM3nOca7IzLC3FU18wFQqiRXG1ybnt0",
+  authDomain: "corona-website-ef313.firebaseapp.com",
+  databaseURL: "https://corona-website-ef313-default-rtdb.firebaseio.com",
+  projectId: "corona-website-ef313",
+  storageBucket: "corona-website-ef313.appspot.com",
+  messagingSenderId: "125530055958",
+  appId: "1:125530055958:web:0674eedb564766bef21c37",
+  measurementId: "G-3J20PRQ6ME"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
   
   var UserInputsRef=firebase.database().ref('UserInputs')
   document.getElementById('testForm').addEventListener('submit',submitForm);
